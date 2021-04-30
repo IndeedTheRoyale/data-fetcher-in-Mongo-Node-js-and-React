@@ -13,7 +13,7 @@ function App() {
   return (
     <Layout
       style={{
-        backgroundColor: "#001529",
+        backgroundColor: "greenAccent",
       }}
     >
       <Header
@@ -26,13 +26,13 @@ function App() {
         }}
       >
         <a href="/">
-          <HomeFilled style={{ fontSize: "30px" }} />
+          <HomeFilled style={{ fontSize: "25px" }} />
         </a>
       </Header>
       <Content
         className="site-layout-background"
         style={{
-          margin: "24px 16px",
+          margin: "24px 10px",
           padding: 24,
           minHeight: "100vh",
         }}
