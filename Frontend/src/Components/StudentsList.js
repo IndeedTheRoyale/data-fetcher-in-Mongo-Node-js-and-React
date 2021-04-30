@@ -15,7 +15,7 @@ function StudentsList({ data }) {
               cover={
                 <img
                   alt="example"
-                  src="https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png"
+                  src="https://c0.klipartz.com/pngpicture/671/944/gratis-png-estudiante-de-dibujos-animados-estudante-colegio-estudiante-universitario-avatar.png"
                 />
               }
             >
