@@ -36,7 +36,7 @@ function StateColleges({ data, type }) {
         {colleges.map(({ name, _id, courses, city, state }) => (
           <Col span={6} id={_id} xs={7} md={4}>
             <Link to={`/college/${_id}`}>
-              <Card hoverable style={{ width: 200, margin: "10px" }}>
+              <Card hoverable style={{ width: 250, margin: "5px" }}>
                 <Meta title={name} description={`${city}, ${state}`} />
                 <h5>
                   {courses.map((course) => (
