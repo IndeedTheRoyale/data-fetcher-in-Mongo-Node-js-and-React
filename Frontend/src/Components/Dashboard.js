@@ -38,7 +38,7 @@ function Dashboard() {
               {Array.isArray(states) && states.length && (
                 <Pie
                   data={states}
-                  title={"State"}
+                  title={"STATE"}
                   dataSelected={setDataSelected}
                   showColleges={setShowColleges}
                   type={setType}
@@ -78,7 +78,7 @@ const Pie = ({ data, title, showColleges, dataSelected, type }) => {
       x: 1,
       label: _id,
       click: function (e) {
-        title === "State" ? type("States") : type("Stream");
+        title === "STATE" ? type("States") : type("Stream");
         dataSelected(e.dataPoint.label);
         showColleges(true);
       },
@@ -96,14 +96,14 @@ const Pie = ({ data, title, showColleges, dataSelected, type }) => {
         toolTipContent: "<b>{label}</b>: {y}%",
         showInLegend: "true",
         legendText: "{label}",
-        indexLabelFontSize: 16,
+        indexLabelFontSize:12,
         indexLabel: "{label} - {y}%",
         dataPoints: dataList,
       },
     ],
   };
   return (
-    <div style={{ padding: "10px 0px" }}>
+    <div style={{ padding: "15px 15px" }}>
       <CanvasJSChart options={options} />
     </div>
   );
