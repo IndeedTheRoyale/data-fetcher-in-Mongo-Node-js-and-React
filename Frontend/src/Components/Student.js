@@ -25,11 +25,11 @@ function Student({ match }) {
       {student ? (
         <Card
           hoverable
-          style={{ margin: "10px", width: "300px" }}
+          style={{ margin: "15px", width: "300px" }}
           cover={
             <img
               alt="example"
-              src="https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png"
+              src="https://c0.klipartz.com/pngpicture/671/944/gratis-png-estudiante-de-dibujos-animados-estudante-colegio-estudiante-universitario-avatar.png"
               height="300px"
               width="300px"
             />
