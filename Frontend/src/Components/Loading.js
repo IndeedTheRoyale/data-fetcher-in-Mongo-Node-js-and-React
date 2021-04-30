@@ -4,7 +4,7 @@ import React from "react";
 function Loading() {
   return (
     <Spin
-      tip="Loading..."
+      tip="Loading For ya ...."
       style={{
         display: "flex",
         justifyContent: "center",
